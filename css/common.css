@@ -12,3 +12,23 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/* task-2 */
+ul.gallery {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  padding: 0;
+}
+
+.gallery-item {
+margin: 10px; 
+}
+
+img {
+width: 360px;
+height: 300px;
+flex-shrink: 0;
+}
