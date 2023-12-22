@@ -32,3 +32,10 @@ width: 360px;
 height: 300px;
 flex-shrink: 0;
 }
+
+/*Task-6*/
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
