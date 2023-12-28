@@ -7,7 +7,7 @@ registerForm.addEventListener("submit", event => {
         email: event.target.elements.email.value.trim(),
         password: event.target.elements.password.value.trim(),
     };
-    if (userData.email === "" || data.password === "") {
+    if (userData.email === "" || userData.password === "") {
         return alert("All form fields must be filled in");
     }
     console.log(userData);
